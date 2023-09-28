@@ -43,11 +43,7 @@ export default defineComponent({
 
 	data(): State {
 		return {
-			todos: [
-				{ id: 0, text: 'Learn Vue', isCompleted: true },
-				{ id: 1, text: 'Learn the basics of Typescript', isCompleted: false },
-				{ id: 2, text: 'Subscribe to the channel', isCompleted: false },
-			],
+			todos: [],
 			activeFilter: 'All',
 		};
 	},
